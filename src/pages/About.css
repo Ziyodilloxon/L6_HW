@@ -1,0 +1,133 @@
+.header_div {
+  width: 1111px;
+  height: 480px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #e7816b;
+  margin-top: 70px;
+
+  div {
+    background-image: url(../../static/img/About.png);
+    width: 640px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    padding-left: 50px;
+    gap: 30px;
+
+    h1 {
+      color: #fff;
+      font-family: "Medium";
+      font-size: 48px;
+      font-style: normal;
+      line-height: 48px; /* 100% */
+    }
+
+    p {
+      color: #fff;
+      font-family: "Regular";
+      font-size: 16px;
+      font-style: normal;
+      line-height: 26px; /* 162.5% */
+    }
+
+    img {
+      position: absolute;
+      left: 634px;
+      border-radius: 0px 15px 15px 0px;
+    }
+  }
+}
+
+.bg-_-img {
+  background-image: url(../../static/img/bg_-_img.png);
+  width: 1111px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 15px 15px 0;
+  text-align: start;
+  h2 {
+    color: #e7816b;
+    font-family: "Medium";
+    font-size: 40px;
+    font-style: normal;
+    line-height: 48px; /* 120% */
+  }
+
+  p {
+    color: #333136;
+    font-family: "Regular";
+    font-size: 16px;
+    font-style: normal;
+    line-height: 26px; /* 162.5% */
+  }
+}
+
+.section {
+  display: flex;
+  margin-top: 95px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  margin-top: 10px;
+
+  h2 {
+    color: #333136;
+    text-align: center;
+    font-family: "Medium";
+    font-size: 20px;
+    font-style: normal;
+    line-height: 26px; /* 130% */
+    letter-spacing: 5px;
+  }
+
+  button {
+    color: #fff;
+    text-align: center;
+    font-family: "Medium";
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 152px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #e7816b;
+    border: none;
+  }
+
+  button:hover {
+    border-radius: 8px;
+    background: #ffad9b;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+  }
+}
+
+.loc_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 95px;
+  margin-bottom: 330px;
+}
+
+section {
+  margin-bottom: 180px;
+}
